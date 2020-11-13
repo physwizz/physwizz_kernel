@@ -22,7 +22,7 @@
  * Attached value: number in kHz
  * Default value: NA
  */
-#define GPU_FREQ_KHZ_MAX (5000)
+#define GPU_FREQ_KHZ_MAX (1300000) //physwizz//
 /**
  * Minimum frequency GPU will be clocked at. Given in kHz.
  * This must be specified as there is no default value.
@@ -52,7 +52,7 @@
  * Attached value: A kbase_gpu_clk_speed_func.
  * Default Value:  NA
  */
-#define GPU_SPEED_FUNC (NULL)
+#define GPU_SPEED_FUNC (1300) //physwizz//
 
 /**
  * Power management configuration
