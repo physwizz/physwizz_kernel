@@ -522,9 +522,7 @@ int gpu_dvfs_get_level_clock(int clock)
 	DVFS_ASSERT(platform);
 
 	min = gpu_dvfs_get_level(platform->gpu_min_clock);
-    //platform->gpu_max_clock = 1300000; /*physwizz*///
 	max = gpu_dvfs_get_level(platform->gpu_max_clock);
-    
 
 	for (i = max; i <= min; i++)
 		if (clock - (int)(platform->table[i].clock) >= 0)
