@@ -1121,7 +1121,7 @@ static __init int cpufreq_read_cpu_min_c2(char *cpu_min_c2)
 __setup("cpu_min_c2=", cpufreq_read_cpu_min_c2);
 
 
-/*Chatur Carlos & physwizz*/
+/*Chatur, Carlos Burero & physwizz*/
 /*Overclocking little cores from 1.35GHz to 1.69GHz*/
 static unsigned long arg_cpu_max_c1 = 1690000; /*max_cpu_freq=1.69 GHz for little cores*/
 
